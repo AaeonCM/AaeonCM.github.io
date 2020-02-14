@@ -18,24 +18,26 @@
     
     
 
-    <title>build | AAEON</title>
-    <meta name="description" content="Some description.">
+    <title>AI | AAEON</title>
+    <meta name="description" content="In order to focus on the development schedule and better system software quality, and introduce automation in the development process, we will provide "conti...">
+    
+        <meta name="keywords" content="">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="build | AAEON">
-    <meta name="twitter:description" content="Some description.">
-    <meta property="twitter:image:src" content="http://localhost:4000/assets/img/blog-image.png">
+    <meta name="twitter:title" content="AI | AAEON">
+    <meta name="twitter:description" content="In order to focus on the development schedule and better system software quality, and introduce automation in the development process, we will provide "conti...">
+    <meta property="twitter:image:src" content="https://github.com/AaeonCM/images/blob/master/AI.JPG?raw=true">
     
         <meta name="twitter:site" content="@aaeon">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="http://localhost:4000/about/">
-    <meta property="og:title" content="build | AAEON">
-    <meta property="og:image" content="http://localhost:4000/assets/img/blog-image.png">
-    <meta property="og:description" content="Some description.">
+    <meta property="og:url" content="http://localhost:4000/AI/">
+    <meta property="og:title" content="AI | AAEON">
+    <meta property="og:image" content="https://github.com/AaeonCM/images/blob/master/AI.JPG?raw=true">
+    <meta property="og:description" content="In order to focus on the development schedule and better system software quality, and introduce automation in the development process, we will provide "conti...">
     <meta property="og:site_name" content="AAEON guild">
 
     <!-- Favicon -->
@@ -67,7 +69,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/styles.min.css">
-    <link rel="canonical" href="http://localhost:4000/about/">
+    <link rel="canonical" href="http://localhost:4000/AI/">
     <link rel="alternate" type="application/rss+xml" title="AAEON guild" href="http://localhost:4000/feed.xml" />
 
     <!-- JavaScript enabled/disabled -->
@@ -112,62 +114,20 @@
   <li>
     <a href="http://localhost:4000/">Home</a>
   </li>
+  <li>
+    <a href="http://localhost:4000/bsp/">BSP OS porting</a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/iot/">Internet Of Things</a>
+  </li>  
   
-    
-  
-    
-      <li>
-        <a href="http://localhost:4000/about/">build</a>
-      </li>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <li>
-        <a href="http://localhost:4000/staff/">product</a>
-      </li>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
+  <li>
+    <a href="http://localhost:4000/AI/">AI</a>
+  </li>
+   
+  <li>
+    <a href="http://localhost:4000/doc/">Document & Tools</a>
+  </li>
   
   
     <li>
@@ -195,198 +155,49 @@
         <section class="post two-columns"> -->
             <article role="article" class="post-content">
                 <!-- <p class="post-info">
+                    
+                        <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
+                        <time class="date" datetime="2018-10-08T20:26:40+08:00">
+                            
+
+
+October 8, 2018
+
+                        </time>
                      -->
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>5 min to read</span>
+                    <span>1 min to read</span>
                 </p>
-                <h1 class="post-title">build</h1>
+                <h1 class="post-title">AI</h1>
                 <p class="post-subtitle"></p>
 
-                <!--  -->
+                <!-- 
+                    <img src="https://github.com/AaeonCM/images/blob/master/AI.JPG?raw=true" alt="Featured image" class="post-cover">
+                 -->
 
                 <!-- Pagination links -->
 
 
 
-                <!-- <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200"> -->
+                <!-- - **Type:** `Function` -->
 
-<h1 id="rk3399-android-image-update-sop">RK3399 Android Image Update SOP</h1>
+<!-- <div class="Alert Alert--nuxt-green">
 
-<h2 id="update-android-image-on-windows-os">Update Android Image on Windows OS</h2>
+<b>Info:</b> Please visit the [async data guide](/guide/async-data) as well!
 
-<div class="Alert Alert--nuxt-blue">
+</div> -->
 
-<b>Pre- requisites</b>
+<div class="Alert Alert--nuxt-green">
 
-</div>
 
-<ul>
-  <li><strong>Windows_Tool.zip</strong></li>
-  <li><strong>Android Images for RK3399 platform:</strong> 
-      boot.img
-      kernel.img
-      MiniLoaderAll.bin
-      misc.img
-      oem.img (Android 8.1 only)
-      parameter.txt
-      recovery.img
-      resource.img
-      system.img
-      trust.img
-      uboot.img
-      vendor.img (Android 8.1 only)</li>
-</ul>
+<div class="Alert Alert--nuxt-green">
 
-<div class="Alert Alert--nuxt-blue">
 
-<b>Update Image</b>
 
-</div>
+<div class="Alert Alert--nuxt-green">
 
-<ul>
-  <li><strong>Unzip Windows_Tool.zip .</strong></li>
-  <li><strong>Execute AndroidTool.exe in administrator mode.</strong></li>
-  <li><strong>Put the device into LOADER or MASKROM state and connect it to Windows PC with USB cable.</strong></li>
-  <li><strong>The UI of AndroidTool.exe should show “Found One LOADER Device” or “Found One MASKROM Device”.</strong></li>
-  <li><strong>Set the path of all the Android images (oem.img and vendor.img only exist in Android 8.1), and check the boxes on UI.</strong></li>
-  <li><strong>Click “Run” button on UI to update images.</strong></li>
-</ul>
 
-<h2 id="update-android-image-on-linux-os">Update Android Image on Linux OS</h2>
 
-<div class="Alert Alert--nuxt-blue">
-
-<b>Pre- requisites</b>
-
-</div>
-
-<ul>
-  <li><strong>Linux_Tool.zip</strong></li>
-  <li><strong>Android Images for RK3399 platform:</strong>
-      boot.img
-      kernel.img
-      MiniLoaderAll.bin
-      misc.img
-      oem.img (Android 8.1 only)
-      parameter.txt
-      recovery.img
-      resource.img
-      system.img
-      trust.img
-      uboot.img
-      vendor.img (Android 8.1 only)</li>
-</ul>
-
-<div class="Alert Alert--nuxt-blue">
-
-<b>Update Image of Android 7.1</b>
-
-</div>
-
-<ul>
-  <li><strong>Unzip Linux_Tool.zip .</strong></li>
-  <li><strong>Put the device into LOADER state and connect it to Linux PC with USB cable.</strong></li>
-  <li>
-    <p><strong>Execute the following Linux shell command under the folder rockdev_71/</strong>
-      sudo chmod 777 *</p>
-  </li>
-  <li><strong>Put all the release image files into the folder rockdev_71 Image/</strong></li>
-  <li><strong>Execute the following Linux shell command under the folder rockdev_71/ to get update.img .</strong>
-      ./mkupdate.sh</li>
-  <li><strong>Move update.img to folder Linux_Upgrade_Tool_71/</strong></li>
-  <li><strong>Execute the following Linux shell command under the folder Linux_Upgrade_Tool_71/</strong>
-      sudo chmod 777 *</li>
-  <li><strong>Execute the following Linux shell command under the folder Linux_Upgrade_Tool_71/ to update image</strong>
-      sudo ./upgrade_tool uf update.img</li>
-</ul>
-
-<div class="Alert Alert--nuxt-blue">
-
-<b>Update Image of Android 8.1</b>
-
-</div>
-
-<ul>
-  <li><strong>Unzip Linux_Tool.zip .</strong></li>
-  <li><strong>Put the device into LOADER state and connect it to Linux PC with USB cable. (If the device runs on Android 7.1, it should be put into MASKROM state to update Android 8.1 images)</strong></li>
-  <li><strong>Execute the following Linux shell command under the folder rockdev_81/</strong>
-      sudo chmod 777 *</li>
-  <li><strong>Put all the release image files into the folder rockdev_81/Image/</strong></li>
-  <li><strong>Execute the following Linux shell command under the folder rockdev_81/ to get update.img .</strong>
-      ./mkupdate.sh</li>
-  <li><strong>Move update.img to folder Linux_Upgrade_Tool_81/</strong></li>
-  <li><strong>Execute the following Linux shell command under the folder Linux_Upgrade_Tool_81/</strong>
-      sudo chmod 777 *</li>
-  <li><strong>Execute the following Linux shell command under the folder Linux_Upgrade_Tool_81/ to update image</strong>
-      sudo ./upgrade_tool uf update.img</li>
-</ul>
-
-<h1 id="rockchip-rk3399-platform-android-71">Rockchip RK3399 Platform Android 7.1</h1>
-
-<h2 id="to-run-a-flash-tool">To Run a Flash Tool</h2>
-
-<div class="Alert Alert--nuxt-blue">
-
-<b>Pre-requisites</b>
-
-</div>
-
-<ul>
-  <li><strong>Prepare an image compressed file. Its name will be like</strong>
-      Android_7.1_{OS_IF}.{PLF_IF}.{PJ_IF}.{BN}.zip</li>
-  <li><strong>I.{OS_IF} is OS Information; e.g. AD71D which AD means Android, 71 means Android 7.1 and D means userdebug. If image is user build the latest character will be U, engineer build will be E -</strong></li>
-  <li><strong>II. {PLF_IF} is Platform Information; e.g. RK3399</strong></li>
-  <li><strong>III. {PJ_IF} is Project Information; e.g. RICO</strong></li>
-  <li><strong>IV. {BN} is Build Number; e.g. 0,1,2,…,N</strong></li>
-  <li><strong>2) Unzip this compressed file to D:\RKImages_RICO in a Windows system. The image files are as follows</strong></li>
-</ul>
-
-<div class="Alert Alert--nuxt-blue">
-
-<b>In Windows Host</b>
-
-</div>
-
-<ul>
-  <li><strong>1) Download the Android Flash Tool of Rockchip. The latest version is AndroidTool_Release_v2.42.zip</strong></li>
-  <li>
-    <p><strong>2) Unzip the compressed file to D:\AndroidTool_Release_v2.42 in a Windows system. The content will be as follows</strong></p>
-  </li>
-  <li>
-    <p><strong>3) Run the AndroidTool.exe. The view of it will be like the following</strong></p>
-  </li>
-  <li><strong>Be sure the tool points the paths of all images to the correct locations. If not, you can redirect the paths by clicking the blue field next to the Path field.</strong></li>
-</ul>
-
-<h2 id="to-install-image">To Install Image</h2>
-
-<div class="Alert Alert--nuxt-blue">
-
-<b>Install Image to RICO Board</b>
-
-</div>
-
-<ul>
-  <li><strong>1) Disconnect any power source from your device board</strong></li>
-  <li>
-    <p><strong>2) Connect your Windows host and device board via USB Type C cable</strong>
-<!-- USB Type C --></p>
-  </li>
-  <li>
-    <p><strong>3) Hold the Recovery button first and then connect 12V power source</strong>
-<!-- Recovery
-12V --></p>
-  </li>
-  <li>
-    <p><strong>4) You should see the Android Flash Tool displaying that it discovers a LOADER device</strong></p>
-  </li>
-  <li><strong>5) Repeat from Step 1 to Step 4 if you cannot see the LOADER text on the status bar of the Android Flash Tool</strong></li>
-  <li>
-    <p><strong>6) Click ‘Run’ to start flashing images if you make sure all the paths of images are correct</strong></p>
-  </li>
-  <li><strong>The Android Flash Tool will lock all buttons and you can see the flashing progress on the right text box</strong></li>
-  <li><strong>7) System will automatically reboot and boot up to Android Home</strong></li>
-</ul>
 
 <!-- The result from asyncData will be **merged** with data.
 
@@ -400,55 +211,13 @@ export default {
   }
 }
 ``` -->
-
-<!-- ## RICO 3399
-
-
-- **Build U-Boot**
-            cd u-boot
-            make rk3399_defconfig; make ARCHV=aarch64.
-
-- **Build Kernel**
-            cd kernel
-            make ARCH=arm64 rockchip_defconfig -j8; make ARCH=arm64 rk3399-sapphire-excavator-edp.img -j12
-
-- **Build System**
-            source build/envsetup.sh; lunch rk3399_mid-userdebug; make -j16; ./mkimage.sh
- -->
-
-<!-- - **Type:** `Function`
-
-
-<div class="Alert Alert--nuxt-green">
-
-<b>Info:</b> Please visit the [async data guide](/guide/async-data) as well!
-
-</div>
-
-
-`asyncData` is called every time before loading the **page** component and is only available for such.
-It will be called server-side once (on the first request to the Nuxt app) and client-side when navigating to further routes. 
-This method receives the [`context`](/api/context) object as the first argument, you can use it to fetch some data and return the component data.
-
-
-The result from asyncData will be **merged** with data.
-
-```js
-export default {
-  data () {
-    return { project: 'default' }
-  },
-  asyncData (context) {
-    return { project: 'nuxt' }
-  }
-}
-```
-
+<!-- 
 <div class="Alert Alert--orange">
 
 <b>Warning:</b> You **don't** have access to the component instance through `this` inside `asyncData` because it is called **before initiating** the component.
 
 </div> -->
+</div></div></div>
 
 
                 <!-- Pagination links -->
@@ -460,7 +229,7 @@ export default {
 
         <!-- Add time bar only for pages without pagination -->
         
-            <div class="time-bar" data-minutes="5">
+            <div class="time-bar" data-minutes="1">
     <span class="time-completed"></span>
     <span class="time-remaining"></span>
     <div class="bar">
@@ -480,13 +249,13 @@ export default {
         </div>
     </div>
     
-    <a href="/bsp/" class="post-preview">
+    <a href="/iot/" class="post-preview">
         <div class="image">
             
-                <img src="https://github.com/AaeonCM/images/blob/master/bsp.jpg?raw=true">
+                <img src="https://github.com/AaeonCM/images/blob/master/IOT.jpg?raw=true">
             
         </div>
-        <h3 class="title">BSP OS porting</h3>
+        <h3 class="title">Internet Of Things</h3>
     </a>
 </div>
 
@@ -500,11 +269,11 @@ export default {
 
         <!-- <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Some description.&quot;%20http://localhost:4000/about/%20via%20&#64;aaeon&hashtags="
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;In order to focus on the development schedule and better system software quality, and introduce automation in the development process, we will provide "continuous integration, continuous deployment, continuous delivery" automation services to improve the quality of project development and achieve goals more quickly.&quot;%20http://localhost:4000/AI/%20via%20&#64;aaeon&hashtags="
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/about/"
+    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/AI/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
@@ -596,7 +365,7 @@ export default {
         disqus_loaded = true;
         var disqus_shortname = 'disqus_username';
         var disqus_title = '';
-        var disqus_url = '/about/';
+        var disqus_url = '/AI/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
@@ -614,8 +383,7 @@ export default {
 
  -->
         <footer>
-  <a>About US</a>
-  
+  <a href="/aboutus/">About US</a>
     <p>
       
         <a href="https://github.com/AaeonCM" title="Github">
@@ -648,62 +416,20 @@ export default {
   <li>
     <a href="http://localhost:4000/">Home</a>
   </li>
+  <li>
+    <a href="http://localhost:4000/bsp/">BSP OS porting</a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/iot/">Internet Of Things</a>
+  </li>  
   
-    
-  
-    
-      <li>
-        <a href="http://localhost:4000/about/">build</a>
-      </li>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <li>
-        <a href="http://localhost:4000/staff/">product</a>
-      </li>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
+  <li>
+    <a href="http://localhost:4000/AI/">AI</a>
+  </li>
+   
+  <li>
+    <a href="http://localhost:4000/doc/">Document & Tools</a>
+  </li>
   
   
     <li>
@@ -781,188 +507,23 @@ export default {
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "build",
+            "name": "AI",
             "headline": "",
-            "description": "Some description.",
-            "image": "",
-            "url": "http://localhost:4000/about/",
+            "description": "In order to focus on the development schedule and better system software quality, and introduce automation in the development process, we will provide "continuous integration, continuous deployment, continuous delivery" automation services to improve the quality of project development and achieve goals more quickly.",
+            "image": "https://github.com/AaeonCM/images/blob/master/AI.JPG?raw=true",
+            "url": "http://localhost:4000/AI/",
             "articleBody": "
 
-RK3399 Android Image Update SOP
 
-Update Android Image on Windows OS
 
 
 
-Pre- requisites
 
 
 
 
-  Windows_Tool.zip
-  Android Images for RK3399 platform: 
-      boot.img
-      kernel.img
-      MiniLoaderAll.bin
-      misc.img
-      oem.img (Android 8.1 only)
-      parameter.txt
-      recovery.img
-      resource.img
-      system.img
-      trust.img
-      uboot.img
-      vendor.img (Android 8.1 only)
 
 
-
-
-Update Image
-
-
-
-
-  Unzip Windows_Tool.zip .
-  Execute AndroidTool.exe in administrator mode.
-  Put the device into LOADER or MASKROM state and connect it to Windows PC with USB cable.
-  The UI of AndroidTool.exe should show “Found One LOADER Device” or “Found One MASKROM Device”.
-  Set the path of all the Android images (oem.img and vendor.img only exist in Android 8.1), and check the boxes on UI.
-  Click “Run” button on UI to update images.
-
-
-Update Android Image on Linux OS
-
-
-
-Pre- requisites
-
-
-
-
-  Linux_Tool.zip
-  Android Images for RK3399 platform:
-      boot.img
-      kernel.img
-      MiniLoaderAll.bin
-      misc.img
-      oem.img (Android 8.1 only)
-      parameter.txt
-      recovery.img
-      resource.img
-      system.img
-      trust.img
-      uboot.img
-      vendor.img (Android 8.1 only)
-
-
-
-
-Update Image of Android 7.1
-
-
-
-
-  Unzip Linux_Tool.zip .
-  Put the device into LOADER state and connect it to Linux PC with USB cable.
-  
-    Execute the following Linux shell command under the folder rockdev_71/
-      sudo chmod 777 *
-  
-  Put all the release image files into the folder rockdev_71 Image/
-  Execute the following Linux shell command under the folder rockdev_71/ to get update.img .
-      ./mkupdate.sh
-  Move update.img to folder Linux_Upgrade_Tool_71/
-  Execute the following Linux shell command under the folder Linux_Upgrade_Tool_71/
-      sudo chmod 777 *
-  Execute the following Linux shell command under the folder Linux_Upgrade_Tool_71/ to update image
-      sudo ./upgrade_tool uf update.img
-
-
-
-
-Update Image of Android 8.1
-
-
-
-
-  Unzip Linux_Tool.zip .
-  Put the device into LOADER state and connect it to Linux PC with USB cable. (If the device runs on Android 7.1, it should be put into MASKROM state to update Android 8.1 images)
-  Execute the following Linux shell command under the folder rockdev_81/
-      sudo chmod 777 *
-  Put all the release image files into the folder rockdev_81/Image/
-  Execute the following Linux shell command under the folder rockdev_81/ to get update.img .
-      ./mkupdate.sh
-  Move update.img to folder Linux_Upgrade_Tool_81/
-  Execute the following Linux shell command under the folder Linux_Upgrade_Tool_81/
-      sudo chmod 777 *
-  Execute the following Linux shell command under the folder Linux_Upgrade_Tool_81/ to update image
-      sudo ./upgrade_tool uf update.img
-
-
-Rockchip RK3399 Platform Android 7.1
-
-To Run a Flash Tool
-
-
-
-Pre-requisites
-
-
-
-
-  Prepare an image compressed file. Its name will be like
-      Android_7.1_{OS_IF}.{PLF_IF}.{PJ_IF}.{BN}.zip
-  I.{OS_IF} is OS Information; e.g. AD71D which AD means Android, 71 means Android 7.1 and D means userdebug. If image is user build the latest character will be U, engineer build will be E -
-  II. {PLF_IF} is Platform Information; e.g. RK3399
-  III. {PJ_IF} is Project Information; e.g. RICO
-  IV. {BN} is Build Number; e.g. 0,1,2,…,N
-  2) Unzip this compressed file to D:\RKImages_RICO in a Windows system. The image files are as follows
-
-
-
-
-In Windows Host
-
-
-
-
-  1) Download the Android Flash Tool of Rockchip. The latest version is AndroidTool_Release_v2.42.zip
-  
-    2) Unzip the compressed file to D:\AndroidTool_Release_v2.42 in a Windows system. The content will be as follows
-  
-  
-    3) Run the AndroidTool.exe. The view of it will be like the following
-  
-  Be sure the tool points the paths of all images to the correct locations. If not, you can redirect the paths by clicking the blue field next to the Path field.
-
-
-To Install Image
-
-
-
-Install Image to RICO Board
-
-
-
-
-  1) Disconnect any power source from your device board
-  
-    2) Connect your Windows host and device board via USB Type C cable
-
-  
-  
-    3) Hold the Recovery button first and then connect 12V power source
-
-  
-  
-    4) You should see the Android Flash Tool displaying that it discovers a LOADER device
-  
-  5) Repeat from Step 1 to Step 4 if you cannot see the LOADER text on the status bar of the Android Flash Tool
-  
-    6) Click ‘Run’ to start flashing images if you make sure all the paths of images are correct
-  
-  The Android Flash Tool will lock all buttons and you can see the flashing progress on the right text box
-  7) System will automatically reboot and boot up to Android Home
 
 
 
@@ -971,11 +532,11 @@ Install Image to RICO Board
 
 
 ",
-            "wordcount": "952",
+            "wordcount": "92",
             "inLanguage": "en",
-            "dateCreated": "",
-            "datePublished": "",
-            "dateModified": "",
+            "dateCreated": "2018-10-08/",
+            "datePublished": "2018-10-08/",
+            "dateModified": "2018-10-08/",
             "author": {
                 "@type": "Person",
                 "name": "Thiago Rossener",

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: build
+
 description: Some description.
-permalink: /about/
+permalink: /sop/
 menu: true
 ---
 
