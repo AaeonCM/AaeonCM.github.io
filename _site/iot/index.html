@@ -93,9 +93,9 @@
         <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
     </a>
     <h1 class="logo">
-        <a href="/">
+        <!-- <a href="/">
             AAEON 
-        </a>
+        </a> -->
     </h1>
     <!-- <a id="search" class="dosearch" role="button">
         <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
@@ -166,7 +166,7 @@ October 9, 2018
                         </time>
                      -->
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>2 min to read</span>
+                    <span>4 min to read</span>
                 </p>
                 <h1 class="post-title">Internet Of Things</h1>
                 <p class="post-subtitle"></p>
@@ -180,40 +180,44 @@ October 9, 2018
 
 
                 <h1 id="introduction">Introduction</h1>
-<div style="display: table;width:900px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
 <br />
 AAEON continues to innovate in providing end-to-end solutions for industrial computing and network applications with our High Efficiency, Reliable and Optimal (HERO) software solutions.<br /> HERO software solutions leverage our expertise and experience with our containerized web app, the HERO Device Management Center (HERO DMC), and native edge device software, the HERO Agent, HERO SDK, and HERO Gateway.<br />
 Available pre-loaded on a selection of AAEON platforms, this software infrastructure
 allows users to monitor several devices and sensors from anywhere thanks to cloud-based technology and edge computing
 </div>
 
+<h1 id="features">Features</h1>
 <div style="width:100%">
-<div style="display: table;width:900px;margin:0 auto; border:#FFFFFF 1px solid;">
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;">
 <div style="display:inline-block;float:left;" class="text001">
 <br />
-• Easy to use Web Based Client Dashboard Graphic Interface<br />
-• Account Management support<br />
-• Device and Group Management support<br /> 
-• MQTT protocol and RESTful API for reliable cloud connectivity<br /> 
-• Event based alerts sent out by email or messenger service<br />
-• Easy to deploy and manage<br /> 
-• Factory Configured to work with your devices from Day 1 </div>
-<div style="display:inline-block;float:left;"><img src="https://github.com/joywork00/images/blob/master/MQTT.png?raw=true" /></div>
+視覺化：Use Web Based Client Dashboard Graphic Interface<br />
+<br />
+安全：Through MQTT protocol and RESTful API for reliable cloud connectivity<br /> 
+<br />
+即時：Event based alerts sent out by email or messenger service<br /> 
+<br />
+快速：Factory Configured to work with your devices from Day 1 </div>
+<div style="display:inline-block;float:left;"><img src="https://github.com/AaeonCM/images/blob/master/MQTT.png?raw=true" /></div>
 </div>
 </div>
 
 <h1 id="architecture">Architecture</h1>
-<div style="display: table;width:900px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+<br />
 The AAEON HERO Device Management Center (DMC) is a dockerized web application which can be deployed on Linuxbased and Windows-based environments.<br />
 Receiving information from HERO Agent and the HERO Gateway, HERO DMC provides a feature-rich web-based dashboard for managing devices, sensors and nodes connected to HERO Gateway as well
 as managing the gateway itself. <br />
 Utilizing M2M technology such as MQTT, HERO DMC allows users to monitor conditions live,
 or set up event alerts sent out via email or messenger services to stay ahead of any situation. If you want to keep your data on your local storage device, HERO Device Management Center can also be deployed to your private cloud without problem.
 </div>
-<p><img src="https://github.com/joywork00/images/blob/master/architecture.png?raw=true" /></p>
+<p><img src="https://github.com/AaeonCM/images/blob/master/architecture.png?raw=true" /></p>
 
 <h1 id="supported-os">Supported OS</h1>
-<div style="display: table;width:900px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+<br />
 HERO Agent and SDK: Debian 9, Ubuntu 16.04, CentOS 7, OpenSUSE Leap, Fedora 21 and above<br />
 HERO Gateway: Debian 9 and above<br />
 HERO DMC: Linux-based server with container support, Windows Server 2016 and above
@@ -224,6 +228,60 @@ HERO DMC: Linux-based server with container support, Windows Server 2016 and abo
 /* 設置一個命名為text001類（使用class=example）字體大小為18px */ 
 </style>
 
+<h1 id="hero-agent-and-sdk">HERO Agent and SDK</h1>
+
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+<br />
+AAEON offers the HERO Agent and SDK software pre-loaded on specially selected AAEON embedded platforms as the HERO Gateway solution, configurable to work with the devices and sensors your facility uses. <br />
+HERO Agent and SDK software is also available separately to be installed by the user.<br />
+HERO Agent provides data collection from edge devices and external sensors connected with the gateway and sends that information securely to the HERO DMC service</div>
+<p><img src="https://github.com/AaeonCM/images/blob/master/heroagev.png?raw=true" /></p>
+
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;;" class="text001">
+See More HEROAgent Guide: <a href="https://heroagent.readthedocs.io/en/latest/index.html">https://heroagent.readthedocs.io/en/latest/index.html</a>
+</div>
+
+<h1 id="hero-gateway">HERO Gateway</h1>
+
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+<br />
+AAEON HERO Gateway is the total hardware solution utilizing AAEON embedded hardware with HERO Agent pre-installed.<br />
+HERO Gateway utilizes protocols such as MQTT and OPC UA to send data securely to HERO DMC, and integrates easily with public cloud services including Microsoft Azure and AWS IoT Core. <br />
+HERO Gateway devices are 4G-LTE compatible, allowing flexible connectivity with HERO DMC. <br />
+With HERO Agent, the device is easily managed through the Dashboard, a web-based interface which features tools such as Device Map and Data Visualization, node device management, database and network management. <br />
+Data stored on HERO Gateway can also be accessed and managed securely through the Dashboard. <br />
+AAEON can also provide service for adding customized RESTful API to assist customers who wish to implement an app to manage their HERO Gateway.</div>
+<p><img src="https://github.com/AaeonCM/images/blob/master/gateway.png?raw=true" /></p>
+
+<p><br /></p>
+<div style="width:100%">
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;">
+<div style="display:inline-block;float:left;" class="text001">
+<br />
+
+• Global Operations View​
+• Visibility &amp; Analytics across plants and Industry​​<br />
+​• Gain a real-time view of all the plants and processes in real-time<br />
+​• Application and Infrastructure monitoring<br />
+• Connect legacy and new equipment​<br />
+• Monitor infrastructure performance with real-time alerts and dashboards<br />
+• Get business insights with custom application and infrastructure metrics<br />
+• Get the same view from anywhere<br />
+• Access your dashboards from your computer, tablet, or device for real-time insights anytime, any place.
+</div>
+<div style="display:inline-block;float:left;"><img src="https://github.com/AaeonCM/images/blob/master/gateway1.png?raw=true" /></div>
+</div>
+</div>
+
+<h1 id="hero-device-management-center">HERO Device Management Center</h1>
+<div style="display: table;width:1000px;margin:0 auto; border:#FFFFFF 1px solid;" class="text001">
+<br />
+The AAEON HERO Device Management Center (DMC) is a dockerized web application which can be deployed on Linux-based and Windows-based environments. <br />
+Receiving information from HERO Agent and the HERO Gateway, HERO DMC provides a feature-rich web-based dashboard for managing devices, sensors and nodes connected to HERO Gateway as well
+as managing the gateway itself. <br />
+Utilizing M2M technology such as MQTT, HERO DMC allows users to monitor conditions live,or set up event alerts sent out via email or messenger services to stay ahead of any situation. If you want to keep your data on your local storage device, HERO Device Management Center can also be deployed to your private cloud without problem.
+</div>
+<p><img src="https://github.com/AaeonCM/images/blob/master/docker.png?raw=true" /></p>
 
 
                 <!-- Pagination links -->
@@ -235,7 +293,7 @@ HERO DMC: Linux-based server with container support, Windows Server 2016 and abo
 
         <!-- Add time bar only for pages without pagination -->
         
-            <div class="time-bar" data-minutes="2">
+            <div class="time-bar" data-minutes="4">
     <span class="time-completed"></span>
     <span class="time-remaining"></span>
     <div class="bar">
@@ -526,22 +584,24 @@ Available pre-loaded on a selection of AAEON platforms, this software infrastruc
 allows users to monitor several devices and sensors from anywhere thanks to cloud-based technology and edge computing
 
 
+Features
 
 
 
 
-• Easy to use Web Based Client Dashboard Graphic Interface
-• Account Management support
-• Device and Group Management support 
-• MQTT protocol and RESTful API for reliable cloud connectivity 
-• Event based alerts sent out by email or messenger service
-• Easy to deploy and manage 
-• Factory Configured to work with your devices from Day 1 
+視覺化：Use Web Based Client Dashboard Graphic Interface
+
+安全：Through MQTT protocol and RESTful API for reliable cloud connectivity 
+
+即時：Event based alerts sent out by email or messenger service 
+
+快速：Factory Configured to work with your devices from Day 1 
 
 
 
 
 Architecture
+
 
 The AAEON HERO Device Management Center (DMC) is a dockerized web application which can be deployed on Linuxbased and Windows-based environments.
 Receiving information from HERO Agent and the HERO Gateway, HERO DMC provides a feature-rich web-based dashboard for managing devices, sensors and nodes connected to HERO Gateway as well
@@ -553,6 +613,8 @@ or set up event alerts sent out via email or messenger services to stay ahead of
 
 Supported OS
 
+
+
 HERO Agent and SDK: Debian 9, Ubuntu 16.04, CentOS 7, OpenSUSE Leap, Fedora 21 and above
 HERO Gateway: Debian 9 and above
 HERO DMC: Linux-based server with container support, Windows Server 2016 and above
@@ -560,8 +622,62 @@ HERO DMC: Linux-based server with container support, Windows Server 2016 and abo
 
 
 
+HERO Agent and SDK
+
+
+
+AAEON offers the HERO Agent and SDK software pre-loaded on specially selected AAEON embedded platforms as the HERO Gateway solution, configurable to work with the devices and sensors your facility uses. 
+HERO Agent and SDK software is also available separately to be installed by the user.
+HERO Agent provides data collection from edge devices and external sensors connected with the gateway and sends that information securely to the HERO DMC service
+
+
+
+See More HEROAgent Guide: https://heroagent.readthedocs.io/en/latest/index.html
+
+
+HERO Gateway
+
+
+
+AAEON HERO Gateway is the total hardware solution utilizing AAEON embedded hardware with HERO Agent pre-installed.
+HERO Gateway utilizes protocols such as MQTT and OPC UA to send data securely to HERO DMC, and integrates easily with public cloud services including Microsoft Azure and AWS IoT Core. 
+HERO Gateway devices are 4G-LTE compatible, allowing flexible connectivity with HERO DMC. 
+With HERO Agent, the device is easily managed through the Dashboard, a web-based interface which features tools such as Device Map and Data Visualization, node device management, database and network management. 
+Data stored on HERO Gateway can also be accessed and managed securely through the Dashboard. 
+AAEON can also provide service for adding customized RESTful API to assist customers who wish to implement an app to manage their HERO Gateway.
+
+
+
+
+
+
+
+
+• Global Operations View​
+• Visibility &amp;amp; Analytics across plants and Industry​​
+​• Gain a real-time view of all the plants and processes in real-time
+​• Application and Infrastructure monitoring
+• Connect legacy and new equipment​
+• Monitor infrastructure performance with real-time alerts and dashboards
+• Get business insights with custom application and infrastructure metrics
+• Get the same view from anywhere
+• Access your dashboards from your computer, tablet, or device for real-time insights anytime, any place.
+
+
+
+
+
+HERO Device Management Center
+
+
+The AAEON HERO Device Management Center (DMC) is a dockerized web application which can be deployed on Linux-based and Windows-based environments. 
+Receiving information from HERO Agent and the HERO Gateway, HERO DMC provides a feature-rich web-based dashboard for managing devices, sensors and nodes connected to HERO Gateway as well
+as managing the gateway itself. 
+Utilizing M2M technology such as MQTT, HERO DMC allows users to monitor conditions live,or set up event alerts sent out via email or messenger services to stay ahead of any situation. If you want to keep your data on your local storage device, HERO Device Management Center can also be deployed to your private cloud without problem.
+
+
 ",
-            "wordcount": "368",
+            "wordcount": "860",
             "inLanguage": "en",
             "dateCreated": "2018-10-09/",
             "datePublished": "2018-10-09/",
